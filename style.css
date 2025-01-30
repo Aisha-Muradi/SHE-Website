@@ -1,0 +1,487 @@
+
+html, body, div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+.navbar {
+    position: fixed; 
+    top: 0;           
+    left: 0;          
+    width: 100%;      
+    height: 5%;
+    background-color: gray;  
+    color: white;     
+    z-index: 10;    
+    padding: 10px 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    
+}
+.navbar ul {
+    list-style-type: none; 
+    overflow: hidden; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    margin-bottom: 20px; 
+
+}
+
+#mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    height: 100vh;  
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+
+#mission p {
+    text-align: center;
+    font-size: 30px;
+}
+#mission h1
+
+
+.left-content {
+    flex: 0 0 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: silver 
+    padding-left: 20px; 
+}
+
+/* Image inside Left Content */
+.left-content img {
+    max-width: 98%;
+    height: 50%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+.right-content {
+    flex: 0 0 50%; 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.right-content h2 {
+    font-size: 2.5rem;
+    color: #08121c;
+    margin-bottom: 20px;
+}
+
+
+.program-page {
+    display: flex; 
+    height: 100vh;
+    background-color:silver; 
+    text-align: center;
+}
+
+
+.program-page h2 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 30px; 
+   
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.contact-page {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 40px;
+    background-color: silver 
+    min-height: 100vh; 
+}
+
+.left-section {
+    flex: 1; 
+    padding: 20px;
+    background-color: #e0e0e0; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.left-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.right-section {
+    flex: 1.5; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 50px; 
+    height: 50px; 
+    margin: 0 auto; 
+    position: relative; 
+  }
+
+.navbar li {
+    float: left; 
+    margin: 0 15px; 
+    text-decoration: none;  
+}
+.mission-page p {
+    text-align: right;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: silver;
+}
+.hover-effect{
+    font-size: 45px;
+    text-align: center;
+    color:black; 
+    transition: color 0.3s ease;  
+}
+.overlay {
+    position: absolute;
+   text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5); 
+    z-index: 1; 
+  }
+.intro-page {
+    background-image: url('https://reseau-insertion-egalite.educagri.fr/files/TEMoignage_4595184deuxmainssetenantaidesoutienetsolidaritedansladiversitesymboleconceptencartoonillustrationvectorisolatedinwhitebackgroundvectoriel_20220622221821_20220622221909.jpg'); 
+    background-size: contain;  
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 125vh; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 5px solid #000; 
+    box-sizing: border-box;  
+}
+.center-button{
+	display: block;
+    margin: 0px auto; 
+    padding: 12px 30px; 
+    font-size: 18px; 
+    background-color: rgb(29, 27, 112); 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0
+
+}
+ h1 {
+	text-align: center;  
+    color: rgba(228, 228, 240, 0.947);     
+    font-size: 100px;  
+    font-family: 'Merriweather', serif;
+    margin-top: 250px;   
+    color: rgb(11, 11, 34)
+}
+input {
+	display: block
+}
+h3{
+	font-family: 'Merriweather', serif;
+}
+.box img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+.box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px; 
+}
+.box:hover {
+    background-color: rgba(255, 215, 0, 0.3); 
+    transform: scale(1.05); 
+    transition: background-color 0.3s, transform 0.3s;
+}
+.center-button:active {
+    background-color: rgb(20, 12, 12);
+    transform: scale(0.95); 
+}
+
+.container {
+    display: flex;          
+    justify-content: space-between; 
+    gap: 20px;               
+    padding: 10px;   
+        
+}
+.container img{
+    transition: opacity 0.5s ease;
+}
+
+.header-item:nth-of-type(1) {
+    width: 70%; 
+}
+
+.header-item:nth-of-type(2) {
+    width: 50%; 
+}
+.navbar a:hover {
+    background-color: beige; 
+    color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.error {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background: pink;
+  }
+
+input.error {
+    border-color: red;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+body.dark {
+    background-color: black;
+    color: white;
+  }
+#petition-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+#call-to-action p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#signatures {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#signatures p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#signature-list {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+#sign-petition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.hover-effect:hover {
+  color: gray; 
+}
+
+
+#call-to-action p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#signatures p {
+    font-size: 1.2rem;
+}
+
+#sign-petition input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#sign-petition button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sign-petition button:hover {
+    background-color: #45a049;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#thanks-modal-content {
+    width: 20rem;
+    margin-bottom: 20px;
+}
+
+#modal-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#modal-image {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.close-btn:hover {
+    background-color: #45a049;
+}
+
+#animated-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    animation: zoom-in-out 3s infinite ease-in-out;
+}
+
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}

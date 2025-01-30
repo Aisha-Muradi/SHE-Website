@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SHE</title>
+        <link href="reset.css" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+              <ul class="nav-links">
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Success Stories</a></li>
+                <li><a href="#login">Login</a></li>
+              </ul>
+            </nav>
+        </header>
+        <section class="intro-page">
+            <div class="overlay">   
+                <h1>SHE</h1>
+                <h2>
+                    <span class="hover-effect">Secure</span>, 
+                    <span class="hover-effect">Help</span>, 
+                    <span class="hover-effect">Empower</span>
+                </h2>
+        </section>
+        <section id="mission" class="mission-page">
+            <div class="left-content">
+                <img id="animated-image" src="https://geology.com/world/map/map-of-afghanistan.gif" alt="Mission Image">
+            </div>
+            <h1>Our Mission</h1>
+            <p>
+                Our mission is to empower Afghan women who are restricted from accessing education by providing a platform where they can find resources to support their learning and growth. We are dedicated to fostering an inclusive community that promotes accessible education, equality, and innovation. Through collaborative efforts and shared knowledge, we aim to help these women thrive, overcome barriers
+            </p>
+        </section>
+        <h2>Choose Your Program</h2>
+        <section id = "program" class = "program-page">
+        <div class="container">
+            <div class="box">Tech and Engineering
+                <img src="https://diversityq-production.s3.amazonaws.com/uploads/2020/06/AdobeStock_314348719.jpeg">
+            </div>
+            <div class="box">Pre-Med
+                <img src = "https://www.sparkadmissions.com/wp-content/uploads/2020/04/How_To_Get_Into_Medical_School.jpg">
+            </div>
+            <div class="box">Finance 
+                <img src = "https://www.dailypioneer.com/uploads/2020/story/images/big/women-and-finance-2020-07-19.jpg">
+            </div>
+            <div class="box">Art
+                <img src ="https://www.aucart.com/wp-content/uploads/2023/04/Erika_Alonso_8.jpg">
+            </div>
+            </div>
+        </section>
+
+
+    <section class="contact-page">
+        <div class="left-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, please reach out to us. We'd love to hear from you!</p>
+        </div>
+        <div class="right-section">
+            <form id="userForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError">Please enter a valid name.</span>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError">Please enter a valid email address.</span>
+    
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <span class="error-message" id="ageError">Please enter a valid age (18+).</span>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>    
+
+
+    
+    <section id="petition-section">
+        <div id="call-to-action">
+          <p>Sign the petition to make a difference!</p>
+        </div>
+        <div id="signatures">
+          <p>Total Signatures: <span id="signature-count">0</span></p>
+          <div id="signature-list"></div>
+        </div>
+        <form id="sign-petition">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <button type="submit" id="sign-now">Sign Now</button>
+        </form>
+      </section>
+    
+   
+      <div id="thanks-modal" class="modal">
+        <div class="modal-content">
+          <div id="modal-text-container">
+            <p id="thanks-modal-content"></p>
+            <button id="close-modal">Close</button>
+          </div>
+          <img src="https://via.placeholder.com/150" alt="Celebration" id="modal-image">
+        </div>
+      </div>
+      <script src="script.js"></script>
+
+      <section>
+        <div id = "courses" class =" courses">
+            <h3> Search for Courses that Interests You Below</h3>
+        </div>      
+        <div class="box"> intro to cs 
+        </div>
+        <div class="box"> intro to economic
+        </div>
+    </section>
+
+</html>
